@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - Entry point function
+ * main - Entry point
  *
  * Description:
  * print sizeof char
