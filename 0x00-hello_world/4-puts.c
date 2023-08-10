@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-* Function main - is the entry point of the program.
-* Function puts - prints a string message included in the double quots.
-* Return -  exists the program and returns 0. means the the code runs successfully
+* Desciption:  
+* Function main - is program entry point.
+* Function puts - prints a string messagedouble quots.
+* Return -  exists the program and returns 0.
 **/
 int main(void)
 {
