@@ -5,8 +5,9 @@
  *
  * Description:
  * Task: "alphABET".
- * function that process status of n based on it's
- * status prints out a specific string.
+ * function that loops through alphabetic charaters
+ * the first for loop will prints (Lowercase) alphabets
+ * the second for loop will prints (Uppercase) alphabets
  *
  * Return: Always 0 (success)
  */
