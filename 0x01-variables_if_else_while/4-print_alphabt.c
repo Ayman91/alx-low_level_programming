@@ -8,7 +8,7 @@
  * I never thought that it would pay off".
  * function that process alphabetic characters and prints out them except the.
  * character "q" and "e".
- * return: 0 Always (success).
+ * Return: 0 Always (success).
  */
 int main(void)
 {
