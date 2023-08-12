@@ -4,10 +4,10 @@
  * main - Entry point
  *
  * Description:
- * Task: "When I was having that alphabet soup,
- * I never thought that it would pay off".
- * function that process alphabetic characters and prints out them except the.
- * character "q" and "e".
+ * Task: "Hexadecimal".
+ * function that prints all the numbers of base 16
+ * in lowercase, followed by a new line.
+ *
  * Return: 0 Always (success).
  */
 int main(void)
