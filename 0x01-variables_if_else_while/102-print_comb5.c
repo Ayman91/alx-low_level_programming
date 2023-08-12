@@ -12,11 +12,11 @@
  */
 int main(void)
 {
-	int first_digit, second_digit;
+	int first_digit = 0, second_digit;
 
-	for (first_digit = 0; first_digit <= 99; first_digit++)
+	for (; first_digit <= 99;)
 	{
-		for (second_digit = 0; second_digit <= 99; second_digit++)
+		for (; second_digit <= 99;)
 		{
 			if (first_digit != second_digit)
 			{
@@ -31,7 +31,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
+			second_digit++;
 		}
+		first_digit++;
 	}
 	putchar('\n');
 	return (0);
