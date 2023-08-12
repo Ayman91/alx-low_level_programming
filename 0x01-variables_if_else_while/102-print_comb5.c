@@ -18,14 +18,14 @@ int main(void)
 	{
 		for (second_digit = 0; second_digit <= 99; second_digit++)
 		{
-			if (first_digit <= second_digit)
+			if (first_digit != second_digit)
 			{
-				putchar('0' + first_digit / 10);
-				putchar('0' + first_digit % 10);
+				putchar((first_digit / 10) + 48);
+				putchar((first_digit % 10) + 48);
 				putchar(' ');
-				putchar('0' + second_digit / 10);
-				putchar('0' + second_digit % 10);
-				if (first_digit < 99 || second_digit < 99)
+				putchar((second_digit / 10) + 48);
+				putchar((second_digit % 10) + 48);
+				if (first_digit != 98 || second_digit != 99)
 				{
 					putchar(',');
 					putchar(' ');
