@@ -22,7 +22,7 @@ void times_table(void)
 			_putchar(' ');
 			p = n * m;
 
-			if (prod <= 9)
+			if (p <= 9)
 			{
 				_putchar(' ');
 			}
@@ -30,7 +30,7 @@ void times_table(void)
 			{
 				_putchar((p / 10) + 48);
 			}
-			_putchar((prod % 10) + 48);
+			_putchar((p % 10) + 48);
 		}
 		_putchar('\n');
 	}
