@@ -11,22 +11,19 @@
 
 int print_sign(int n)
 {
-	int sign;
-
-	switch (n)
+	if (n > 0)
 	{
-		case 0:
-		_putchar(48);
-		sign = 0;
-		break;
-		case 1:
-		_putchar(43);
-		sign = 1;
-		break;
-		default:
-		_putchar(45);
-		sign = -1;
-		break;
+		_putchar('+');
+		return (1);
 	}
-return (sign);
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
