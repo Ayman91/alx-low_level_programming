@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - Prints digits 0 to 9
  * (excluding 2 and 4) using _putchar twice.
- * 
+ *
  * Return: Always 0 (Success)
 */
 
